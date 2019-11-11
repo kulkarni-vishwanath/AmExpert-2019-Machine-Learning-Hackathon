@@ -1,3 +1,5 @@
+![amex](https://user-images.githubusercontent.com/25604111/68610721-627f9280-04de-11ea-9b04-e563d07c4a5b.jpg)
+
 # Predicting Coupon Redemption
 
 XYZ Credit Card company regularly helps it’s merchants understand their data better and take key business decisions accurately by providing machine learning and analytics consulting. ABC is an established Brick & Mortar retailer that frequently conducts marketing campaigns for its diverse product range. As a merchant of XYZ, they have sought XYZ to assist them in their discount marketing process using the power of machine learning. Can you wear the AmExpert hat and help out ABC?
