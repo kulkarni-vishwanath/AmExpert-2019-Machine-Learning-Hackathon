@@ -21,4 +21,5 @@ Based on previous transaction & performance data from the last 18 campaigns, pre
 Leaderboard
 
 [Public LB] : 234rd/1021 Rank
+
 [Private LB] : 207th/1021 Rank
