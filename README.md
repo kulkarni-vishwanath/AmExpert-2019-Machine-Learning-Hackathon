@@ -18,7 +18,13 @@ The data available in this problem contains the following information, including
 
 #### Previous transactions
 
+<img width="848" alt="amex19" src="https://user-images.githubusercontent.com/25604111/68610794-9d81c600-04de-11ea-9fe6-444d143ea4ab.png">
+
+
 Based on previous transaction & performance data from the last 18 campaigns, predict the probability for the next 10 campaigns in the test set for each coupon and customer combination, whether the customer will redeem the coupon or not?
+
+## Evaluation Metric
+Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
 
 ## Leaderboard
 
