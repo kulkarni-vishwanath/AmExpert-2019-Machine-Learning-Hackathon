@@ -1,4 +1,4 @@
-Predicting Coupon Redemption
+# Predicting Coupon Redemption
 
 XYZ Credit Card company regularly helps it’s merchants understand their data better and take key business decisions accurately by providing machine learning and analytics consulting. ABC is an established Brick & Mortar retailer that frequently conducts marketing campaigns for its diverse product range. As a merchant of XYZ, they have sought XYZ to assist them in their discount marketing process using the power of machine learning. Can you wear the AmExpert hat and help out ABC?
 
@@ -8,17 +8,17 @@ ABC’s promotions are shared across various channels including email, notificat
 
 The data available in this problem contains the following information, including the details of a sample of campaigns and coupons used in previous campaigns -
 
-User Demographic Details
+#### User Demographic Details
 
-Campaign and coupon Details
+#### Campaign and coupon Details
 
-Product details
+#### Product details
 
-Previous transactions
+#### Previous transactions
 
 Based on previous transaction & performance data from the last 18 campaigns, predict the probability for the next 10 campaigns in the test set for each coupon and customer combination, whether the customer will redeem the coupon or not?
 
-Leaderboard
+## Leaderboard
 
 [Public LB] : 234rd/1021 Rank
 
