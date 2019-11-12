@@ -26,6 +26,17 @@ Based on previous transaction & performance data from the last 18 campaigns, pre
 ## Evaluation Metric
 Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target.
 
+## Approach to Problem Solving:
+* The first and foremost step was to do some basic exploration of the datasets that were available that includes Missing value imputation, Outlier treatment etc. One main observation while carrying out EDA was that the dependent variable was highly imbalanced. This needed a different approach to Modelling. 
+* The second step was to combine the datasets into a Train and a Test dataset.
+* The next step was to create additional features from the Datetime variable available to us. Features such as Month, Day, Weekend etc. 
+* I also created a few grouped features such as Mean, Median, Count etc Grouped by afew variables.
+* Since the categorical variables cannot be used as is in the model, I used LabelEncoding to encode categorical features. 
+* The next step was to remove the Highly correlated variables as they impart same information and it might lead to overfitting.
+* Since the variables were in a different scale , I had to standardize them in order to bring all of them to same scale. 
+* Since the datais highly imbalanced, I had to use a combination of Oversampling and Undersampling in order to balance the data. 
+* For modelling, I used Stratified K Fold with Light GBM with class_weight='balanced' parameter in order to get the results. 
+
 ## Leaderboard
 
 [Public LB] : 234rd/1021 Rank
